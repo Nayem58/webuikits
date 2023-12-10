@@ -1,4 +1,8 @@
 // === margin ===
+.m-auto {
+  margin: auto;
+}
+
 .m-1rem {
   margin: 1rem;
 }
@@ -37,6 +41,11 @@
 
 .m-10rem {
   margin: 10rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mx-1rem {
@@ -87,6 +96,11 @@
 .mx-10rem {
   margin-left: 10rem;
   margin-right: 10rem;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .my-1rem {

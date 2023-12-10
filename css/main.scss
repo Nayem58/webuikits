@@ -66,14 +66,20 @@ p {
 }
 
 // === grid-4x4
-.grid-4x4 {
+.grid-1x4 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 30px;
 }
 
-.grid-2x2 {
+.grid-1x2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.grid-1x3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
 }

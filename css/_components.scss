@@ -8,6 +8,9 @@
   font-weight: 600;
   text-decoration: none;
   border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid $theme-primary-border;
+  cursor: pointer;
   transition: $transition-all-quarter-sec;
 
   &:hover {
@@ -78,7 +81,7 @@
 .theme-card {
   position: relative;
   border-radius: 5px;
-  box-shadow: $theme-primary-box-shadow;
+  border: 1px solid $theme-primary-border;
 
   &:has(.footer) {
     padding-bottom: 40px;
