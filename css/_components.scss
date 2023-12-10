@@ -73,3 +73,35 @@
     }
   }
 }
+
+// === theme-card ===
+.theme-card {
+  position: relative;
+  border-radius: 5px;
+  padding-bottom: 40px;
+  box-shadow: $theme-primary-box-shadow;
+
+  .thumb-wrapper:has(img[src*="svg"]) {
+    padding: 15px;
+  }
+
+  .body {
+    padding: 15px;
+  }
+
+  .footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid $theme-primary-border;
+
+    .theme-btn {
+      width: 100%;
+      height: 100%;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+  }
+}
