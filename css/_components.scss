@@ -78,8 +78,11 @@
 .theme-card {
   position: relative;
   border-radius: 5px;
-  padding-bottom: 40px;
   box-shadow: $theme-primary-box-shadow;
+
+  &:has(.footer) {
+    padding-bottom: 40px;
+  }
 
   .thumb-wrapper:has(img[src*="svg"]) {
     padding: 15px;
@@ -87,6 +90,12 @@
 
   .body {
     padding: 15px;
+  }
+
+  .title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
   }
 
   .footer {
